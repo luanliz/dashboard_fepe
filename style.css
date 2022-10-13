@@ -1,0 +1,24 @@
+.tittle-dashboard {
+  color: #c36;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Roboto", Sans-serif;
+  margin-top: 30px;
+}
+
+.dashboard {
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+
+#myChart {
+  margin: 4px;
+}
+
+#secondMyChart {
+  margin: 4px;
+}

@@ -1,22 +1,99 @@
-.tittle-dashboard {
-  color: #c36;
-  font-weight: bold;
-  text-align: center;
-  font-family: "Roboto", Sans-serif;
-  margin-top: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.chartMenu {
+  width: 100vw;
+  height: 100px;
+  background: #fff;
+  color: rgba(255, 26, 104, 1);
+}
+.tittle {
+  font-size: 20px;
+  color: rgba(255, 26, 104, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.chartBox {
-  display: block;
-  margin: auto;
-  width: 800px;
-  height: 800px;
+.btn-refresh {
+  border-radius: 3px;
+  padding: 5px;
 }
 
-#myChart {
-  margin: 4px;
+.btn-refresh:hover {
+  background-color: rgba(255, 26, 104, 1);
+  color: #fff;
 }
 
-#secondMyChart {
-  margin: 4px;
+.chartMenu img {
+  max-height: 350px;
+  max-width: 160px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.btn-refresh {
+  align-items: center;
+}
+
+.chartCard,
+.chartCardtwo,
+.chartCardthree,
+.chartCardfour {
+  width: 100vw;
+  height: calc(40vh - 40px);
+  background: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chartBox,
+.chartBoxtwo,
+.chartBoxthree,
+.chartBoxfour {
+  width: 700px;
+  height: 300px;
+  padding: 60px;
+  border-radius: 20px;
+  border: solid 3px rgba(255, 26, 104, 1);
+  background: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .chartBox,
+  .chartBoxtwo,
+  .chartBoxthree,
+  .chartBoxfour {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .chartBox,
+  .chartBoxtwo,
+  .chartBoxthree,
+  .chartBoxfour {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .chartBox,
+  .chartBoxtwo,
+  .chartBoxthree,
+  .chartBoxfour {
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+  }
 }

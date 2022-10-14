@@ -26,11 +26,13 @@
   border-radius: 3px;
   padding: 5px;
   align-items: center;
+  cursor: pointer;
 }
 
 .btn-refresh:hover {
   background-color: rgba(255, 26, 104, 1);
   color: #fff;
+  cursor: pointer;
 }
 
 .chartMenu img {

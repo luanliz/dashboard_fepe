@@ -108,6 +108,7 @@ const config = {
   data: dataZero,
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     scales: {
       y: {
         ticks: {
@@ -139,6 +140,7 @@ const configOne = {
   data: dataOne,
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     radius: 4,
     hoverRadius: 10,
     scales: {
@@ -173,6 +175,7 @@ const configTwo = {
   data: dataTwo,
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     scales: {
       y: {
         beginAtZero: true,
@@ -212,6 +215,7 @@ const configThird = {
   data: dataThird,
   options: {
     responsive: true,
+    maintainAspectRatio: false,
   },
 };
 const chartOne = new Chart(firstChart, config);

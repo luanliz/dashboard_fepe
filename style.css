@@ -46,8 +46,8 @@
 .chartCardtwo,
 .chartCardthree,
 .chartCardfour {
-  width: 100vw;
-  height: calc(40vh - 40px);
+  width: 100%;
+  height: 60vh;
   background: #ffff;
   display: flex;
   align-items: center;
@@ -58,8 +58,8 @@
 .chartBoxtwo,
 .chartBoxthree,
 .chartBoxfour {
-  width: 700px;
-  height: 300px;
+  width: 60%;
+  height: 40vh;
   padding: 60px;
   border-radius: 20px;
   border: solid 3px rgba(255, 26, 104, 1);

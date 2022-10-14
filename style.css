@@ -23,10 +23,11 @@
 }
 
 .btn-refresh {
+  background-color: rgb(124, 8, 49);
+  color: #fff;
   border-radius: 3px;
   padding: 5px;
   align-items: center;
-  cursor: pointer;
 }
 
 .btn-refresh:hover {
